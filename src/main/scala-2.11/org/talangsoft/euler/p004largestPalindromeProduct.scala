@@ -7,15 +7,6 @@ import collection.breakOut
   */
 object p004largestPalindromeProduct {
 
-  def isPalindrome(maybePalindrome:Long):Boolean = {
-    def isPalindromeRec(maybePalindrome:String): Boolean = {
-      if(maybePalindrome.size<2) true
-      else maybePalindrome.head == maybePalindrome.last && isPalindromeRec(maybePalindrome.substring(1,maybePalindrome.size-1))
-    }
-    isPalindromeRec(maybePalindrome.toString)
-  }
-
-
   def palindromes(begin: Int, end: Int): IndexedSeq[Int] =
-    ((begin to end map (firstNumber => {firstNumber to end map (secondNumber => firstNumber * secondNumber) })) flatten) filter (isPalindrome(_)) sortWith (_ < _) distinct
+    ((begin to end map (firstNumber => {firstNumber to end map (secondNumber => firstNumber * secondNumber) })) flatten) filter (nr => {nr.toString.reverse == nr.toString}) sortWith (_ < _) distinct
 }
