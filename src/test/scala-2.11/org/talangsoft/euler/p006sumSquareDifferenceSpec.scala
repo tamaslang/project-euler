@@ -2,7 +2,7 @@ package org.talangsoft.euler
 
 import org.scalatest.{ShouldMatchers, WordSpec}
 
-class p0006sumSquareDifferenceSpec extends WordSpec with ShouldMatchers{
+class p006sumSquareDifferenceSpec extends WordSpec with ShouldMatchers{
   "sumOfSquares" should {
     "return 385 for first 10 numbers" in {
       p006sumSquareDifference.sumOfSquares(10) shouldBe 385
@@ -22,7 +22,7 @@ class p0006sumSquareDifferenceSpec extends WordSpec with ShouldMatchers{
   }
 
   "difference" should {
-    "return ? for first 100 numbers" in {
+    "solve the task to ? for first 100 numbers" in {
       p006sumSquareDifference.difference(100) shouldBe 25164150
     }
   }

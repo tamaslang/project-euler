@@ -18,7 +18,7 @@ class p004largestPalindromeProductSpec extends WordSpec with ShouldMatchers{
   }
 
   "palindromes" should {
-    "should return largest palindrome ? for 3 digit numbers" in {
+    "solve the task to ? for 3 digit numbers" in {
       p004largestPalindromeProduct.palindromes(100,999).last shouldBe 906609
     }
   }

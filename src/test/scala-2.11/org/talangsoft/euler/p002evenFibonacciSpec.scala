@@ -10,7 +10,7 @@ class p002evenFibonacciSpec extends WordSpec with ShouldMatchers {
   }
 
   "evenFibonacciSum" should {
-    "return ? for fibonacci till 4000000" in {
+    "solve the task to ? for fibonacci till 4000000" in {
       p002evenFibonacci.evenFibonacciSum(4000000) shouldBe 4613732
     }
   }

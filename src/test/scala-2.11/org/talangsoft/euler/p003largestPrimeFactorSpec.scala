@@ -29,7 +29,7 @@ class p003largestPrimeFactorSpec extends WordSpec with ShouldMatchers{
   }
 
   "largestPrimeFactor" should {
-    "be 29 for number 600851475143" in {
+    "solve the task to ? for number 600851475143" in {
       p003largestPrimeFactor.largestPrimeFactor(600851475143l) shouldBe 6857
     }
   }

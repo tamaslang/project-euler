@@ -10,7 +10,7 @@ class p001MultiplesOf3And5Spec extends WordSpec with ShouldMatchers{
   }
 
   "multiplesOf3And5" should {
-    "return ? for numbers below 1000" in {
+    "solve the task to ? for numbers below 1000" in {
       p001MultiplesOf3And5.multiplesOf3And5(1,999) shouldBe 233168
     }
   }

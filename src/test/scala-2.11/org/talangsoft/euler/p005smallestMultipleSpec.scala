@@ -22,7 +22,7 @@ class p005smallestMultipleSpec extends WordSpec with ShouldMatchers {
   }
 
   "smallestMultiple" should {
-    "return ? for list 1 to 20" in {
+    "solve the task to ? for list 1 to 20" in {
       p005smallestMultiple.smallestMultiple(1l to 20l toList) shouldBe 232792560
     }
   }
