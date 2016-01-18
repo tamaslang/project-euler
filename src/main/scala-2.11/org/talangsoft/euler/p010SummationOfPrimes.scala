@@ -7,7 +7,7 @@ import scala.annotation.tailrec
 
   Find the sum of all the primes below two million.
  */
-object p010SummationOfPrimes {
+object p010summationOfPrimes {
 
   def isPrime(nr: Long): Boolean = {
     if(nr<=1) return false

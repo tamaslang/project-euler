@@ -9,7 +9,7 @@ package org.talangsoft.euler
   There exists exactly one Pythagorean triplet for which a + b + c = 1000.
   Find the product abc.
  */
-object p009SpecialPythagoreanTriplet {
+object p009specialPythagoreanTriplet {
   def isPythagoreanTriplet(a:Long, b: Long, c: Long) = a < b && b < c && (a*a + b*b == c*c)
 
 
